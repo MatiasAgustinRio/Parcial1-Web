@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Para el codigo Inicio.html*/
+
+.Pantalla-Inicio{
+    display: flex;
+    flex-basis:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/imagenes/CN1.png) ;
+    background-position: center;
+}
+
+.BotonInicio{
+    display: inline-block;
+    padding: 10px 15px;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-top:20px;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.Contenido-Inicio h1 {
+    display: inline-block;
+    color: black;
+    border-bottom: 4px solid gold;
+}
+
+.Contenido-Inicio h2 {
+    display: inline-block;
+    color: black;
+    border-bottom: 4px solid gold;
+}
+
+.BotonInicio:hover{
+    color: black;
+}
+
+/*Para el codigo Inicio.html*/
+
+
+
+/*Para el codigo Final.html*/
+.Pantalla-Final{
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-image: url(/imagenes/CN3.png) ;
+    background-position: center;
+    color: black;
+}
+
+.Pantalla-Final h1{
+    display: inline-block;
+    border-bottom: 5px solid white;
+}
+
+form{
+    max-width: 500px;
+    padding: 20px;
+    border: 5px solid silver;
+    border-radius: 4px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);;
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap:5px;
+    font-weight: 700;
+}
+
+.grupo input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.Boton-Enviar{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: 700;
+    cursor: pointer;
+    background-color:  #1b1b1b;
+    color: white;
+}
+
+.Boton-Enviar:hover{
+    background-color: silver;
+    color: black;
+}
+
+.Pantalla-Final .BotonInicio{
+    margin-bottom: 20px;
+}
+
+.Pantalla-Final {
+    padding-top: 20px;
+}
+
+/*Para el codigo Final.html*/
+
+.encabezado{
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    color: white;
+}
+
+.encabezado h1{
+    display: inline-block;
+    border-bottom: 5px solid black;
+}
+
+body{
+    font-family:sans-serif;
+    background-image: url(/imagenes/CN2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #252525;
+}
+
+.Todo-Principal{
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 30px;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 20px auto;
+    align-items: start;
+}
+
+.ContenidoPrincipal {
+    width: 100%;
+    min-width: 0;
+}
+
+.Columna-Lateral {
+    position: sticky;
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(255, 177, 177, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    top: 20px;
+}
+
+.Columna-Lateral ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+}
+
+.Columna-Lateral li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.Columna-Lateral a {
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black ;
+    color:black;
+}
+
+.Columna-Lateral a:hover{
+    color: white;
+}
+
+.parte, .parteColumna{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Imagen{
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 0 0 5px 20px;
+}
+
+.ContenedorAsid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    margin: 0 0 5px 20px;
+    float: right;
+    clear: right;
+}
+
+.ContenedorAsid img{
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #1b1b1b
+}
+
+.Pagina-Final{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.BotonFinal{
+    padding: 10px ;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color:rgba(68, 68, 68, 0.6);
+}
+
+.BotonFinal:hover{
+    color: rgb(255, 255, 255);
+}
+
+.BotonInicioFin{
+    padding: 10px 15px;
+    border-width: 2px;
+    border-radius: 4px;
+    background-color:rgba(68, 68, 68, 0.6);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.BotonAtras{
+    padding: 10px 15px;
+    border-width: 2px;
+    border-radius: 4px;
+    background-color:rgba(68, 68, 68, 0.6);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.BotonInicioFin:hover, .BotonAtras:hover{
+    color:black;
+}
+
+.final-pagina-cont{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    color: white;
+}
+
+.final-pagina-cont h5{
+border-bottom: 4px solid black;
+}
+
+.final-pagina{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    color: white;
+}
+
+.final-pagina h5{
+border-bottom: 4px solid black;
+}
+
+.final-pagina a{
+    padding-left: 10px;
+    color: black;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th{
+    background-color: #352a2a;
+    color: white;
+}
+
+p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+h2, h3{
+    color: black;
+}
+
+hr{
+    height: 2px;
+    border: none;
+    margin-bottom: 12px;
+    background-color: black;
+}
+
+.tema-azul{
+    background-color: white;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+.tema-rojo{
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+.tema-maron{
+    background-color: white;
+    border: 5px solid  rgb(68, 15, 15);
+    border-radius: 5px;
+}
+
+.tema-negro{
+    background-color:white ;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.tema-blanco{
+    background-color:rgb(247, 242, 242) ;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 760px) {
+.Todo-Principal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 0;
+    gap: 15px;
+}
+
+.ContenidoPrincipal{
+    width: 100%;
+}
+
+.Columna-Lateral{
+    position: static;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.Columna-Lateral ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Columna-Lateral li {
+    margin-bottom: 0;
+}
+
+.Imagen, .ContenedorAsid{
+    width: 100%;
+    margin: 15px 0;
+    float: none;
+}
+
+table{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.Pantalla-Final h1{
+    border-bottom: none;
+}
+
+}
+
+
